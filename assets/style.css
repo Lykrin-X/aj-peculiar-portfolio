@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -18,8 +19,34 @@ nav {
     border: 2px solid black
 }
 
-.links {
+.nav-links {
+    display: flex;
+    list-style: none;
+    border: 2px solid black;
+    font-size: 16px;
+    gap: 2%;
+}
+
+.link {
     display: flex;
     flex: 0 0 auto;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+}
+
+h2,
+h3,
+h4, {
+    margin: 5%
+    width: 25vw;
+    text-align: right;
+}
+
+footer {
+    display: flex;
 }
